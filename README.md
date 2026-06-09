@@ -44,27 +44,27 @@
 
 ## Избранные проекты
 
-### electrolabbot — RAG-ассистент для энергетики и промышленности
+### electrolabbot RAG-ассистент для энергетики и промышленности
 Поиск и интерпретация по нормативной базе электротехнических испытаний (ПУЭ, ПТЭЭП, СП, ГОСТ, РД) на **полностью открытых данных**. Помогает находить нормы, трактовать результаты измерений и заполнять протоколы.
 `ruBERT embeddings` · `Chroma (HNSW)` · `Langfuse трейсинг` · `FastAPI + Streamlit + CLI` · `Docker`
 → демо: [electrolabbot.ru](https://electrolabbot.ru) · код: [github.com/scharfff/electrolabbot](https://github.com/scharfff/electrolabbot)
 
-### DocuLex — анализ договоров с LLM
+### DocuLex анализ договоров с LLM
 Сервис извлечения структурированных данных из договоров: мультиформатный ввод PDF/DOCX, OCR-пайплайн, structured extraction 17 полей (Pydantic), генерация отчётов PDF и XLSX, Telegram-бот. Деплой через Docker.
 `OCR` · `structured extraction` · `Pydantic` · `FastAPI` · `Docker`
 → демо: [doculex.ru](https://doculex.ru)
 
-### mailru-cloud-cli — опубликованный пакет на PyPI
+### mailru-cloud-cli опубликованный пакет на PyPI
 CLI-клиент Mail.ru Облака через WebDAV: загрузка, скачивание, одно/двусторонняя синхронизация каталогов. Реальные пользователи, релизный цикл, тесты и CI.
 `pip install mailru-cloud-cli` · `WebDAV` · `pytest` · `GitHub Actions` · `PyPI release`
 → [github.com/scharfff/mailrucloud](https://github.com/scharfff/mailrucloud) · [PyPI](https://pypi.org/project/mailru-cloud-cli/)
 
-### MBTI-LSTM — исследование: предсказание психотипа по тексту
+### MBTI-LSTM исследование, предсказание психотипа по тексту
 BiLSTM-классификатор, извлекающий косвенные признаки личности (стиль, лексика, синтаксис) из текстов. Основа магистерской диссертации; по теме опубликованы статьи в РИНЦ.
 `PyTorch` · `BiLSTM (128→64)` · `NLP preprocessing` · `research`
 → [github.com/scharfff/MBTI-LSTM](https://github.com/scharfff/MBTI-LSTM)
 
-### linux-tools-documentation — автоматизация и мониторинг в Linux
+### linux-tools-documentation автоматизация и мониторинг в Linux
 Коллекция shell-скриптов и документации для Debian / Ubuntu / Astra Linux: мониторинг процессов синхронизации, уведомления, типовые задачи администрирования.
 `Bash` · `cron` · `systemd` · `Astra Linux`
 → [github.com/scharfff/linux-tools-documentation](https://github.com/scharfff/linux-tools-documentation)
@@ -84,7 +84,7 @@ BiLSTM-классификатор, извлекающий косвенные п�
 
 ## Образование и наука
 
-- **Магистратура**, СибГИУ — интеллектуальные системы и технологии (2024). Диссертация: программный модуль на LSTM для анализа неявных сущностей в тексте и их корреляции с психотипами.
+- **Магистратура**, СибГИУ интеллектуальные системы и технологии (2024). Диссертация: программный модуль на LSTM для анализа неявных сущностей в тексте и их корреляции с психотипами.
 - **2 публикации** (РИНЦ) по теме психолингвистического анализа текстов.
 - Профиль исследователя: [researchid.co/s.liiilia](https://researchid.co/s.liiilia)
 
