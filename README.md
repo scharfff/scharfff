@@ -100,4 +100,4 @@ BiLSTM-классификатор, извлекающий косвенные п�
 - Готовлюсь к поступлению в аспирантуру по направлению *ИИ и машинное обучение*
 - Углубляюсь в RAG-архитектуры для промышленных доменов и эффективный fine-tuning LLM
 
-Связаться: [Telegram @mueqee](https://t.me/mueqee) (предпочтительно) · [LinkedIn](https://www.linkedin.com/in/liiilia/) · mueqee@gmail.com
+Связаться: [Telegram @pullubu](https://t.me/pullubu) (предпочтительно) · [LinkedIn](https://www.linkedin.com/in/liiilia/) · s.liiilia@mail.ru
