@@ -1,12 +1,12 @@
-<h1 align="center">Лилия Шарф</h1>
+<h1 align="center">Lilia Scharf</h1>
 
 <p align="center">
-  <b>ML-инженер и исследователь</b> · NLP · LLM · RAG · Document AI<br>
-  <sub>Технические и промышленные домены · закрытые корпоративные контуры · Санкт-Петербург</sub>
+  <b>ML engineer and researcher</b> · NLP · LLM · RAG · Document AI<br>
+  <sub>Technical and industrial domains · closed corporate environments · Saint Petersburg</sub>
 </p>
 
 <p align="center">
-  <b>Русский</b> &nbsp;·&nbsp; <a href="https://github.com/scharfff/scharfff/blob/main/README.en.md">English</a>
+  <b>English</b> &nbsp;·&nbsp; <a href="https://github.com/scharfff/scharfff/blob/main/README.ru.md">Русский</a>
 </p>
 
 <p align="center">
@@ -24,76 +24,76 @@
 
 ---
 
-## О себе
+## About
 
-Строю системы анализа документов на базе LLM для технических и промышленных областей: RAG-поиск по нормативной документации, OCR-пайплайны, извлечение структурированных данных, дообучение BERT-подобных моделей под NER и классификацию. Работаю там, где данные нельзя отдавать в облако: закрытые контуры, локальные модели, гибридные архитектуры.
+I build LLM-based document analysis systems for technical and industrial domains: RAG search over regulatory documents, OCR pipelines, structured extraction, and fine-tuning of BERT-like models for NER and classification. I work where data cannot go to the cloud: closed corporate environments, local models, hybrid architectures.
 
-Параллельно занимаюсь исследованиями в NLP (лингвистические признаки в текстах) и преподаю Python, информатику и профильную математику абитуриентам в СПбПУ. По первому образованию инженер-строитель (ПГС, BIM), поэтому предметную область технических документов знаю изнутри.
+Alongside engineering I do NLP research (linguistic features in text) and teach Python, computer science and mathematics to university applicants at SPbPU. My first degree is in civil engineering (BIM), so technical documents are a domain I know from the inside.
 
-**Сейчас:** преподаю в СПбПУ, развиваю учебную платформу и готовлюсь к поступлению в аспирантуру в 2027 году (ИИ и машинное обучение).
-
----
-
-## Публикации
-
-Все работы вышли под фамилией **Самойлова Л.** (ныне Шарф); варианты написания связаны в профилях ORCID, Google Scholar и ResearchID.
-
-1. Самойлова Л., Гулевич Т. М. **Применение искусственной нейронной сети с пятифакторной моделью личности для подбора персонала** // Наука и молодежь: проблемы, поиски, решения : труды Всероссийской научной конференции. Вып. 28. Ч. II. Новокузнецк : СибГИУ, 2024.
-2. Самойлова Л., Даниловский В. М. **Прогнозирование личностных характеристик MBTI с использованием рекуррентной нейронной сети LSTM и текстовых данных социальных сетей** // Вестник науки. 2024. Т. 4, № 6 (75). С. 1176–1184. [Текст на КиберЛенинке](https://cyberleninka.ru/article/n/prognozirovanie-lichnostnyh-harakteristik-mbti-s-ispolzovaniem-rekurrentnoy-neyronnoy-seti-lstm-i-tekstovyh-dannyh-sotsialnyh-setey) · код: [MBTI-LSTM](https://github.com/scharfff/MBTI-LSTM)
-3. Самойлова Л., Даниловский В. М. **Интеллектуальная система распознавания птиц в видеонаблюдении на основе свёрточных нейронных сетей** // Вестник науки. 2024. Т. 2, № 11 (80). С. 1149–1159. [Текст на КиберЛенинке](https://cyberleninka.ru/article/n/intellektualnaya-sistema-raspoznavaniya-ptits-v-videonablyudenii-na-osnove-svertochnyh-neyronnyh-setey)
-
-Google Scholar на 27.10.2026: 5 цитирований · h-index 1.
+**Now:** teaching at SPbPU, developing an educational platform and preparing for PhD admission in 2027 (AI and machine learning).
 
 ---
 
-## Избранные проекты
+## Publications
 
-| Проект | Что это | Стек и ссылки |
+All papers were published in Russian under the surname **Samoilova L.** (now Scharf); the name variants are linked in ORCID, Google Scholar and ResearchID.
+
+1. Samoilova L., Gulevich T. M. **Application of an artificial neural network with the Big Five personality model to personnel selection** // Proc. All-Russian Conf. "Science and Youth: Problems, Searches, Solutions", iss. 28, part II. Novokuznetsk: SibSIU, 2024.
+2. Samoilova L., Danilovsky V. M. **Prediction of Personal Characteristics MBTI Using Recurrent Neural Network LSTM and Text Data of Social Networks** // Vestnik nauki. 2024. Vol. 4, no. 6 (75). Pp. 1176–1184. [Full text](https://cyberleninka.ru/article/n/prognozirovanie-lichnostnyh-harakteristik-mbti-s-ispolzovaniem-rekurrentnoy-neyronnoy-seti-lstm-i-tekstovyh-dannyh-sotsialnyh-setey) · code: [MBTI-LSTM](https://github.com/scharfff/MBTI-LSTM)
+3. Samoilova L., Danilovsky V. M. **Intelligent Bird Recognition System in Video Surveillance Based on Convolutional Neural Networks** // Vestnik nauki. 2024. Vol. 2, no. 11 (80). Pp. 1149–1159. [Full text](https://cyberleninka.ru/article/n/intellektualnaya-sistema-raspoznavaniya-ptits-v-videonablyudenii-na-osnove-svertochnyh-neyronnyh-setey)
+
+Google Scholar as of 27 Oct 2026: 5 citations · h-index 1.
+
+---
+
+## Selected projects
+
+| Project | What it is | Stack and links |
 |---|---|---|
-| **[spbpu-inf-course](https://github.com/scharfff/spbpu-inf-course)** | Веб-учебник и курс по ЕГЭ-информатике для абитуриентов СПбПУ: теория, разборы всех заданий КИМ, решения на Python, трекер прогресса. Ядро учебной платформы | Astro · Python · GitHub Actions → GitHub Pages · [открыть](https://scharfff.github.io/spbpu-inf-course/) |
-| **[electrolabbot](https://github.com/scharfff/electrolabbot)** | Открытый RAG-ассистент по нормам электротехнических испытаний (ПУЭ, ПТЭЭП, СП, ГОСТ, РД): открытые нормы и обезличенные синтетические отчёты; интерфейсы Streamlit, REST API и CLI | ruBERT · Chroma · LangChain · Langfuse · FastAPI · Docker |
-| **DocuLex** | Сервис анализа договоров: PDF/DOCX и сканы → OCR → извлечение 17 полей с валидацией (Pydantic) → отчёты PDF и XLSX, Telegram-бот. Разбор договора — примерно 5 минут вместо 15 вручную. Разработан мной в «Синтезе» по собственной инициативе, используется в компании. Код закрытый | OCR · structured extraction · Pydantic · FastAPI · Docker |
-| **[mailru-cloud-cli](https://github.com/scharfff/mailrucloud)** | CLI-клиент Mail.ru Облака через WebDAV: загрузка, скачивание, синхронизация каталогов. Многопоточная загрузка ускорила синхронизацию в 4–8 раз ([CHANGELOG, v1.4.2](https://github.com/scharfff/mailrucloud/blob/master/CHANGELOG.md)) | `pip install mailru-cloud-cli` · [PyPI](https://pypi.org/project/mailru-cloud-cli/) · pytest · GitHub Actions (CI на Python 3.10 и 3.11, релизы) |
-| **[MBTI-LSTM](https://github.com/scharfff/MBTI-LSTM)** | Исследовательский проект магистратуры: LSTM/BiLSTM-классификатор признаков типа личности по тексту. Метрики и ограничения описаны в README репозитория | PyTorch · BiLSTM · NLP |
-| **[linux-tools-documentation](https://github.com/scharfff/linux-tools-documentation)** | Скрипты и заметки по администрированию Debian / Ubuntu / Astra Linux: мониторинг процессов синхронизации, уведомления | Bash · cron · systemd |
+| **[spbpu-inf-course](https://github.com/scharfff/spbpu-inf-course)** | Web textbook and course for the Russian computer science state exam, built for SPbPU applicants: theory, walkthroughs of every exam task, Python solutions, progress tracker. The core of the educational platform (in Russian) | Astro · Python · GitHub Actions → GitHub Pages · [open](https://scharfff.github.io/spbpu-inf-course/) |
+| **[electrolabbot](https://github.com/scharfff/electrolabbot)** | Open RAG assistant for electrical testing standards (PUE, PTEEP, SP, GOST, RD): public standards and anonymized synthetic reports; Streamlit UI, REST API and CLI | ruBERT · Chroma · LangChain · Langfuse · FastAPI · Docker |
+| **DocuLex** | Contract analysis service: PDF/DOCX and scans → OCR → extraction of 17 fields with validation (Pydantic) → PDF and XLSX reports, Telegram bot. Contract review takes about 5 minutes instead of 15 by hand. Built by me at Sintez on my own initiative and still used inside the company. Closed source | OCR · structured extraction · Pydantic · FastAPI · Docker |
+| **[mailru-cloud-cli](https://github.com/scharfff/mailrucloud)** | CLI client for Mail.ru Cloud over WebDAV: upload, download, directory sync. Multithreaded upload sped up sync 4–8x ([CHANGELOG, v1.4.2](https://github.com/scharfff/mailrucloud/blob/master/CHANGELOG.md)) | `pip install mailru-cloud-cli` · [PyPI](https://pypi.org/project/mailru-cloud-cli/) · pytest · GitHub Actions (CI on Python 3.10 and 3.11, releases) |
+| **[MBTI-LSTM](https://github.com/scharfff/MBTI-LSTM)** | Master's research project: an LSTM/BiLSTM classifier of personality-type features from text. Metrics and limitations are described in the repository README | PyTorch · BiLSTM · NLP |
+| **[linux-tools-documentation](https://github.com/scharfff/linux-tools-documentation)** | Scripts and notes for Debian / Ubuntu / Astra Linux administration: sync process monitoring, notifications | Bash · cron · systemd |
 
-<!-- Демо: раскомментировать после восстановления серверов.
-| Демо | Ссылка |
+<!-- Demo: uncomment when the servers are back.
+| Demo | Link |
 |---|---|
-| electrolabbot (RAG по электротехническим нормам) | https://electrolabbot.ru |
-| DocuLex (анализ договоров) | https://doculex.ru |
+| electrolabbot (RAG over electrical standards) | https://electrolabbot.ru |
+| DocuLex (contract analysis) | https://doculex.ru |
 -->
 
 ---
 
-## Опыт
+## Experience
 
-| Период | Роль | Что делала |
+| Period | Role | What I did |
 |---|---|---|
-| 2025 — н. в. | Преподаватель (part-time), СПбПУ, центр работы с абитуриентами | Авторский курс и платформа к нему; пары по Python, информатике и профильной математике для абитуриентов |
-| 2024 — 2025 | ML-инженер, «Синтез» (IT-инфраструктура; компания ≈30 человек) | RAG-система поиска по технической документации (ПУЭ, ПТЭЭП, ГОСТ, РД), закрытый корпус ≈300 документов; сервис анализа договоров DocuLex; дообучение BERT-подобных моделей под NER и классификацию техпротоколов, дообучение HF-модели для суммаризации документации электролабораторий |
-| 2023 — 2024 | Аналитик-разработчик, «Синтез» | Сравнение локальных моделей и облачных провайдеров (OpenAI, Hugging Face, Sber, Yandex) по метрикам и бенчмаркам; A/B-тесты ML- и AI-решений, постанализ, отчёты; обработка данных электроизмерительных лабораторий; администрирование инфраструктуры СКУД (Болид, Orion Pro) |
-| 2022 — 2024 | Инженер-исследователь (part-time), СибГИУ | Лингвистические паттерны типов личности в текстах, LSTM-классификатор, пайплайны предобработки корпусов; исследования по распознаванию птиц на CNN; статья и труды конференции |
-| 2022 — 2023 | Стажёр-аналитик, «Синтез» | ETL-процессы, дашборды, оцифровка технической документации по ГОСТ |
+| 2025 – present | Lecturer (part-time), SPbPU, applicant outreach center | Own course and a platform for it; classes in Python, computer science and mathematics for applicants |
+| 2024 – 2025 | ML Engineer, Sintez (IT infrastructure; company of about 30 people) | RAG system for search over technical documentation (PUE, PTEEP, GOST, RD), closed corpus of about 300 documents; DocuLex contract analysis service; fine-tuning of BERT-like models for NER and classification of technical test protocols; fine-tuning of an HF model for summarizing electrical-lab documentation |
+| 2023 – 2024 | Analyst-developer, Sintez | Benchmarking local models against cloud providers (OpenAI, Hugging Face, Sber, Yandex); A/B tests of ML and AI solutions, post-analysis, reports; processing of electrical measurement lab data; access control infrastructure administration (Bolid, Orion Pro) |
+| 2022 – 2024 | Research engineer (part-time), SibSIU | Linguistic markers of personality type in texts, LSTM classifier, corpus preprocessing pipelines; research for a CNN-based bird recognition system; a journal paper and conference proceedings |
+| 2022 – 2023 | Analyst intern, Sintez | ETL processes, dashboards, digitizing technical documentation per GOST |
 
-## Образование
+## Education
 
-- **Магистратура**, СибГИУ, 2022–2024 — 09.04.02 «Информационные системы и технологии», профиль «Интеллектуальные системы и технологии»
-- **Бакалавриат**, СибГИУ, 2018–2022 — ПГС, информационное моделирование и BIM-технологии
-- Английский: B2
+- **MSc**, Siberian State Industrial University (SibSIU), 2022–2024 — 09.04.02 Information Systems and Technologies, track "Intelligent Systems and Technologies"
+- **BSc**, SibSIU, 2018–2022 — Industrial and Civil Engineering, information modeling and BIM
+- English: B2
 
 ---
 
-## Стек
+## Stack
 
-**Язык и ML:** Python · PyTorch · NumPy · Pandas · SciPy · Pydantic · Hugging Face Transformers · fine-tuning (LoRA / PEFT)
+**Language and ML:** Python · PyTorch · NumPy · Pandas · SciPy · Pydantic · Hugging Face Transformers · fine-tuning (LoRA / PEFT)
 
-**LLM и RAG:** LLM API · vLLM · Ollama · LangChain · LlamaIndex · эмбеддинги · Qdrant / Chroma · Langfuse · PaddleOCR
+**LLM and RAG:** LLM APIs · vLLM · Ollama · LangChain · LlamaIndex · embeddings · Qdrant / Chroma · Langfuse · PaddleOCR
 
-**Сервис и инфраструктура:** FastAPI · Docker · PostgreSQL · Linux (Debian / Ubuntu / Astra) · Git · GitHub Actions · Yandex Cloud · Cloud.ru · Amvera
+**Services and infrastructure:** FastAPI · Docker · PostgreSQL · Linux (Debian / Ubuntu / Astra) · Git · GitHub Actions · Yandex Cloud · Cloud.ru · Amvera
 
 ---
 
 <p align="center">
-  Связаться: <a href="https://t.me/pullubu">Telegram @pullubu</a> (предпочтительно) · <a href="mailto:s.liiilia@mail.ru">s.liiilia@mail.ru</a>
+  Contact: <a href="https://t.me/pullubu">Telegram @pullubu</a> (preferred) · <a href="mailto:s.liiilia@mail.ru">s.liiilia@mail.ru</a>
 </p>
