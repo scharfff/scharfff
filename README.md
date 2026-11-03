@@ -1,99 +1,106 @@
-<h1 align="center">Lilia Scharf</h1>
+<h1 align="center">Scharf L</h1>
 
 <p align="center">
-  <b>ML engineer and researcher</b> · NLP · LLM · RAG · Document AI<br>
-  <sub>Technical and industrial domains · closed corporate environments · Saint Petersburg</sub>
+  <b>ML engineer</b><br>
+  Document AI and RAG systems for technical and industrial domains.
 </p>
 
 <p align="center">
-  <b>English</b> &nbsp;·&nbsp; <a href="https://github.com/scharfff/scharfff/blob/main/README.ru.md">Русский</a>
+  <b>English</b> · <a href="https://github.com/scharfff/scharfff/blob/main/README.ru.md">Русский</a>
 </p>
 
 <p align="center">
-  <a href="https://t.me/pullubu"><img src="https://img.shields.io/badge/Telegram-@pullubu-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"></a>
-  <a href="mailto:s.liiilia@mail.ru"><img src="https://img.shields.io/badge/Email-s.liiilia@mail.ru-EA4335?style=flat-square&logo=maildotru&logoColor=white" alt="Email"></a>
-  <a href="https://www.linkedin.com/in/liiilia/"><img src="https://img.shields.io/badge/LinkedIn-liiilia-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://www.kaggle.com/lilyscharf"><img src="https://img.shields.io/badge/Kaggle-lilyscharf-20BEFF?style=flat-square&logo=kaggle&logoColor=white" alt="Kaggle"></a>
-</p>
-<p align="center">
-  <a href="https://orcid.org/0009-0002-8954-8867"><img src="https://img.shields.io/badge/ORCID-0009--0002--8954--8867-A6CE39?style=flat-square&logo=orcid&logoColor=white" alt="ORCID"></a>
-  <a href="https://scholar.google.com/citations?user=1SYAk28AAAAJ"><img src="https://img.shields.io/badge/Google%20Scholar-profile-4285F4?style=flat-square&logo=googlescholar&logoColor=white" alt="Google Scholar"></a>
-  <a href="https://www.webofscience.com/wos/author/record/NZO-1576-2025"><img src="https://img.shields.io/badge/Web%20of%20Science-NZO--1576--2025-5E33BF?style=flat-square&logo=clarivate&logoColor=white" alt="Web of Science ResearcherID"></a>
-  <a href="https://researchid.co/sliiilia"><img src="https://img.shields.io/badge/ResearchID-sliiilia-00CCBB?style=flat-square" alt="ResearchID"></a>
+  <a href="https://t.me/pullubu">Telegram</a> ·
+  <a href="mailto:scharf.onnx@bk.ru">scharf.onnx@bk.ru</a> ·
+  <a href="https://www.linkedin.com/in/liiilia/">LinkedIn</a> ·
+  <a href="https://scholar.google.com/citations?user=1SYAk28AAAAJ">Google Scholar</a>
 </p>
 
 ---
 
-## About
+I build LLM-based document analysis systems: RAG over regulatory documents, OCR pipelines, structured extraction with validation, fine-tuned BERT-like models for NER and classification. Most of this work was done on closed corporate documents, with local models compared against cloud providers.
 
-I build LLM-based document analysis systems for technical and industrial domains: RAG search over regulatory documents, OCR pipelines, structured extraction, and fine-tuning of BERT-like models for NER and classification. I work where data cannot go to the cloud: closed corporate environments, local models, hybrid architectures.
+My first degree is in civil engineering (BIM), so technical documents are familiar to me from the inside. I also teach Python, computer science and mathematics to university applicants at SPbPU and do NLP research.
 
-Alongside engineering I do NLP research (linguistic features in text) and teach Python, computer science and mathematics to university applicants at SPbPU. My first degree is in civil engineering (BIM), so technical documents are a domain I know from the inside.
+## Systems I designed and owned
 
-**Now:** teaching at SPbPU, developing an educational platform and preparing for PhD admission in 2027 (AI and machine learning).
+### DocuLex: contract analysis service (closed source)
 
----
+- **Problem.** Reviewing a contract by hand took about 15 minutes.
+- **Architecture.** PDF, DOCX and scans go through an OCR pipeline. Structured extraction returns 17 fields validated against a Pydantic schema, and the service produces PDF and XLSX reports. Interface: a Telegram bot. Deployed in Docker on Amvera.
+- **Outcome.** I built it at Sintez on my own initiative. Review takes about 5 minutes instead of about 15, and the service is still in use at the company.
 
-## Publications
+### RAG over technical regulations at Sintez (closed source)
 
-All papers were published in Russian under the surname **Samoilova L.** (now Scharf); the name variants are linked in ORCID, Google Scholar and ResearchID.
+- **Problem.** Search over technical regulations from Russian electrical codes and standards (PUE, PTEEP, GOST, RD) in a closed corporate corpus of about 300 documents.
+- **Stack.** LangChain, ChromaDB, ruBERT embeddings, a FastAPI service, Langfuse for tracing, Docker.
 
-1. Samoilova L., Gulevich T. M. **Application of an artificial neural network with the Big Five personality model to personnel selection** // Proc. All-Russian Conf. "Science and Youth: Problems, Searches, Solutions", iss. 28, part II. Novokuznetsk: SibSIU, 2024.
-2. Samoilova L., Danilovsky V. M. **Prediction of Personal Characteristics MBTI Using Recurrent Neural Network LSTM and Text Data of Social Networks** // Vestnik nauki. 2024. Vol. 4, no. 6 (75). Pp. 1176–1184. [Full text](https://cyberleninka.ru/article/n/prognozirovanie-lichnostnyh-harakteristik-mbti-s-ispolzovaniem-rekurrentnoy-neyronnoy-seti-lstm-i-tekstovyh-dannyh-sotsialnyh-setey) · code: [MBTI-LSTM](https://github.com/scharfff/MBTI-LSTM)
-3. Samoilova L., Danilovsky V. M. **Intelligent Bird Recognition System in Video Surveillance Based on Convolutional Neural Networks** // Vestnik nauki. 2024. Vol. 2, no. 11 (80). Pp. 1149–1159. [Full text](https://cyberleninka.ru/article/n/intellektualnaya-sistema-raspoznavaniya-ptits-v-videonablyudenii-na-osnove-svertochnyh-neyronnyh-setey)
+### [electrolabbot](https://github.com/scharfff/electrolabbot): open RAG assistant for electrical testing standards
 
-Google Scholar as of 27 Oct 2026: 5 citations · h-index 1.
+- **Problem.** A working RAG system for electrical testing built only on public standards and synthetic reports, so no private data is published.
+- **Architecture.** Public standards plus 15 anonymized synthetic reports generated by a script. ruBERT embeddings and a Chroma store with an HNSW index run locally, with conversational memory. The LLM is called through the Hugging Face Inference API. Optional Langfuse tracing. Interfaces: Streamlit, a FastAPI REST API and a CLI. Docker and Amvera configs are included.
+- **Trade-off.** It uses a free-tier hosted LLM. The README documents a limit of 30,000 requests per month and 2 to 5 seconds of latency, and lists caching and asynchronous handling as mitigations.
 
----
+### [TapKeys](https://github.com/scharfff/tapkeys): trackpad gestures to shortcuts on macOS (Swift, MIT)
 
-## Selected projects
+- **Architecture.** Touches come from Apple's private `MultitouchSupport.framework`, loaded at runtime with `dlsym`. A `CGEvent` tap swallows only clicks with three or four fingers that have a binding. Letter shortcuts follow the current keyboard layout, including AZERTY, Dvorak and Russian.
+- **Constraints.** Private APIs can change between macOS releases. The app is tested on macOS 15 (Intel), signed ad hoc and not notarized. The README states this, with workarounds.
+- **Release pipeline.** CI runs on every pull request and every push to main. A version tag builds a universal binary, a zip and a DMG, and the build checks the signature and both architectures and runs a self-test from the DMG. The release is created as a draft, checksums of uploaded files are verified against `SHA256SUMS`, then it is published and the Homebrew cask is updated. v0.2.0 is the first stable release: `brew install --cask scharfff/tap/tapkeys`.
 
-| Project | What it is | Stack and links |
-|---|---|---|
-| **[spbpu-inf-course](https://github.com/scharfff/spbpu-inf-course)** | Web textbook and course for the Russian computer science state exam, built for SPbPU applicants: theory, walkthroughs of every exam task, Python solutions, progress tracker. The core of the educational platform (in Russian) | Astro · Python · GitHub Actions → GitHub Pages · [open](https://scharfff.github.io/spbpu-inf-course/) |
-| **[electrolabbot](https://github.com/scharfff/electrolabbot)** | Open RAG assistant for electrical testing standards (PUE, PTEEP, SP, GOST, RD): public standards and anonymized synthetic reports; Streamlit UI, REST API and CLI | ruBERT · Chroma · LangChain · Langfuse · FastAPI · Docker |
-| **DocuLex** | Contract analysis service: PDF/DOCX and scans → OCR → extraction of 17 fields with validation (Pydantic) → PDF and XLSX reports, Telegram bot. Contract review takes about 5 minutes instead of 15 by hand. Built by me at Sintez on my own initiative and still used inside the company. Closed source | OCR · structured extraction · Pydantic · FastAPI · Docker |
-| **[mailru-cloud-cli](https://github.com/scharfff/mailrucloud)** | CLI client for Mail.ru Cloud over WebDAV: upload, download, directory sync. Multithreaded upload sped up sync 4–8x ([CHANGELOG, v1.4.2](https://github.com/scharfff/mailrucloud/blob/master/CHANGELOG.md)) | `pip install mailru-cloud-cli` · [PyPI](https://pypi.org/project/mailru-cloud-cli/) · pytest · GitHub Actions (CI on Python 3.10 and 3.11, releases) |
-| **[MBTI-LSTM](https://github.com/scharfff/MBTI-LSTM)** | Master's research project: an LSTM/BiLSTM classifier of personality-type features from text. Metrics and limitations are described in the repository README | PyTorch · BiLSTM · NLP |
-| **[linux-tools-documentation](https://github.com/scharfff/linux-tools-documentation)** | Scripts and notes for Debian / Ubuntu / Astra Linux administration: sync process monitoring, notifications | Bash · cron · systemd |
+### [spbpu-inf-course](https://github.com/scharfff/spbpu-inf-course): web textbook for the 2027 Russian Unified State Exam (EGE) in computer science (content in Russian)
 
-<!-- Demo: uncomment when the servers are back.
-| Demo | Link |
-|---|---|
-| electrolabbot (RAG over electrical standards) | https://electrolabbot.ru |
-| DocuLex (contract analysis) | https://doculex.ru |
--->
+- **Architecture.** An Astro web app built and deployed by GitHub Actions to GitHub Pages. Content lives in per-task folders with Python solutions. The previous year is kept on its own branch (2026), and the README documents the draft 2027 specification: 27 tasks and 29 primary points.
+- **Outcome.** The core of my educational platform and the material for my classes at SPbPU. [Open the web app](https://scharfff.github.io/spbpu-inf-course/).
 
----
+### [mailrucloud](https://github.com/scharfff/mailrucloud): unofficial CLI for Mail.ru Cloud (PyPI)
+
+- **Architecture.** Python and Click over WebDAV. In v1.1.0 I replaced the outdated REST API with WebDAV. Multithreaded upload (4 threads by default) arrived in v1.4.2, and the [CHANGELOG](https://github.com/scharfff/mailrucloud/blob/master/CHANGELOG.md) reports sync 4 to 8 times faster.
+- **Engineering.** Tests run with pytest, CI covers Python 3.10 and 3.11, and releases go to [PyPI](https://pypi.org/project/mailru-cloud-cli/) through a publish workflow: `pip install mailru-cloud-cli`.
+
+### Research
+
+Master's research on linguistic markers of personality type in texts: [MBTI-LSTM](https://github.com/scharfff/MBTI-LSTM), a BiLSTM classifier in PyTorch. I also contributed research to a CNN-based bird recognition system for surveillance camera snapshots.
 
 ## Experience
 
-| Period | Role | What I did |
-|---|---|---|
-| 2025 – present | Lecturer (part-time), SPbPU, applicant outreach center | Own course and a platform for it; classes in Python, computer science and mathematics for applicants |
-| 2024 – 2025 | ML Engineer, Sintez (IT infrastructure; company of about 30 people) | RAG system for search over technical documentation (PUE, PTEEP, GOST, RD), closed corpus of about 300 documents; DocuLex contract analysis service; fine-tuning of BERT-like models for NER and classification of technical test protocols; fine-tuning of an HF model for summarizing electrical-lab documentation |
-| 2023 – 2024 | Analyst-developer, Sintez | Benchmarking local models against cloud providers (OpenAI, Hugging Face, Sber, Yandex); A/B tests of ML and AI solutions, post-analysis, reports; processing of electrical measurement lab data; access control infrastructure administration (Bolid, Orion Pro) |
-| 2022 – 2024 | Research engineer (part-time), SibSIU | Linguistic markers of personality type in texts, LSTM classifier, corpus preprocessing pipelines; research for a CNN-based bird recognition system; a journal paper and conference proceedings |
-| 2022 – 2023 | Analyst intern, Sintez | ETL processes, dashboards, digitizing technical documentation per GOST |
+- **2025 to present.** Lecturer (part-time), SPbPU, applicant outreach center. Own course and its web platform.
+- **2024 to 2025.** ML Engineer, Sintez, IT Infrastructure team. RAG system, DocuLex, fine-tuned BERT-like models for NER and classification of test reports, a fine-tuned Hugging Face model that summarizes electrical laboratory documentation.
+- **2023 to 2024.** Analyst-Developer, Sintez, IT Infrastructure team. Benchmarks of local models against cloud providers (OpenAI, Hugging Face, Sber, Yandex), A/B tests of ML and AI solutions with post-analysis.
+- **2022 to 2024.** Research Engineer (part-time), SibSIU, Department of Information Technology. LSTM and BiLSTM classifier research.
+- **2022 to 2023.** Analyst intern, Sintez. ETL processes, dashboards, digitizing technical documentation per GOST.
 
-## Education
+<details>
+<summary><b>Publications</b></summary>
 
-- **MSc**, Siberian State Industrial University (SibSIU), 2022–2024 — 09.04.02 Information Systems and Technologies, track "Intelligent Systems and Technologies"
-- **BSc**, SibSIU, 2018–2022 — Industrial and Civil Engineering, information modeling and BIM
-- English: B2
+&nbsp;
 
----
+Publications are in Russian and appear under the name Samoilova L. (surname now Scharf). The name variants are linked in Google Scholar. Web of Science ResearcherID: [NZO-1576-2025](https://www.webofscience.com/wos/author/record/NZO-1576-2025).
 
-## Stack
+1. Samoilova L., Gulevich T. M. Application of an artificial neural network with the Big Five personality model to personnel selection. Proc. All-Russian Conf. "Science and Youth: Problems, Searches, Solutions", iss. 28, part II. SibSIU, 2024.
+2. Samoilova L., Danilovsky V. M. Prediction of Personal Characteristics MBTI Using Recurrent Neural Network LSTM and Text Data of Social Networks. Vestnik nauki, 2024, vol. 4, no. 6 (75), pp. 1176 to 1184. [Full text](https://cyberleninka.ru/article/n/prognozirovanie-lichnostnyh-harakteristik-mbti-s-ispolzovaniem-rekurrentnoy-neyronnoy-seti-lstm-i-tekstovyh-dannyh-sotsialnyh-setey). Code: [MBTI-LSTM](https://github.com/scharfff/MBTI-LSTM).
+3. Samoilova L., Danilovsky V. M. Intelligent Bird Recognition System in Video Surveillance Based on Convolutional Neural Networks. Vestnik nauki, 2024, vol. 2, no. 11 (80), pp. 1149 to 1159. [Full text](https://cyberleninka.ru/article/n/intellektualnaya-sistema-raspoznavaniya-ptits-v-videonablyudenii-na-osnove-svertochnyh-neyronnyh-setey)
 
-**Language and ML:** Python · PyTorch · NumPy · Pandas · SciPy · Pydantic · Hugging Face Transformers · fine-tuning (LoRA / PEFT)
+</details>
 
-**LLM and RAG:** LLM APIs · vLLM · Ollama · LangChain · LlamaIndex · embeddings · Qdrant / Chroma · Langfuse · PaddleOCR
+<details>
+<summary><b>Education</b></summary>
 
-**Services and infrastructure:** FastAPI · Docker · PostgreSQL · Linux (Debian / Ubuntu / Astra) · Git · GitHub Actions · Yandex Cloud · Cloud.ru · Amvera
+&nbsp;
 
----
+- MSc in Information Systems and Technologies (Intelligent Systems and Technologies), SibSIU, 2022 to 2024.
+- BSc in Industrial and Civil Engineering (BIM), SibSIU, 2018 to 2022.
+- English: B2.
 
-<p align="center">
-  Contact: <a href="https://t.me/pullubu">Telegram @pullubu</a> (preferred) · <a href="mailto:s.liiilia@mail.ru">s.liiilia@mail.ru</a>
-</p>
+</details>
+
+<details>
+<summary><b>Stack</b></summary>
+
+&nbsp;
+
+- **ML:** Python, PyTorch, Hugging Face Transformers, fine-tuning (LoRA, PEFT), vLLM, Ollama
+- **LLM and RAG:** LangChain, LlamaIndex, Chroma, Qdrant, Langfuse, PaddleOCR, Pydantic
+- **Services:** FastAPI, Docker, PostgreSQL, Linux, Git, GitHub Actions, Yandex Cloud, Cloud.ru, Amvera
+- **Apps:** Swift (TapKeys)
+
+</details>
