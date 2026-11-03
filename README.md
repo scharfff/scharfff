@@ -7,8 +7,7 @@
 </p>
 
 <p align="left">
-  <b>ML engineer</b><br>
-  Document AI and RAG systems for technical and industrial domains.
+  <b>ML engineer. NLP and RAG systems for technical and industrial domains.</b>
 </p>
 
 
