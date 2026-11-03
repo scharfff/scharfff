@@ -6,7 +6,7 @@
   <a href="https://orcid.org/0009-0002-8954-8867"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white" alt="ORCID"></a>
 </p>
 
-<p align="right">
+<p align="left">
   <b>ML-инженер</b><br>
   Document AI и RAG-системы для технических и промышленных областей.
 </p>

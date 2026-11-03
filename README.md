@@ -1,14 +1,3 @@
-<h1 align="center">Scharf L</h1>
-
-<p align="center">
-  <b>ML engineer</b><br>
-  Document AI and RAG systems for technical and industrial domains.
-</p>
-
-<p align="center">
-  <b>English</b> · <a href="https://github.com/scharfff/scharfff/blob/main/README.ru.md">Русский</a>
-</p>
-
 <p align="center">
   <a href="https://t.me/pullubu"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"></a>
   <a href="https://www.linkedin.com/in/liiilia/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
@@ -17,7 +6,16 @@
   <a href="https://orcid.org/0009-0002-8954-8867"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white" alt="ORCID"></a>
 </p>
 
+<p align="left">
+  <b>ML engineer</b><br>
+  Document AI and RAG systems for technical and industrial domains.
+</p>
+
+
 ---
+<p align="center">
+  <b>English</b> · <a href="https://github.com/scharfff/scharfff/blob/main/README.ru.md">Русский</a>
+</p>
 
 I build LLM-based document analysis systems: RAG over regulatory documents, OCR pipelines, structured extraction with validation, fine-tuned BERT-like models for NER and classification. Most of this work was done on closed corporate documents, with local models compared against cloud providers.
 
