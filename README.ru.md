@@ -1,28 +1,30 @@
-<h1 align="center">Scharf L</h1>
-
 <p align="center">
+  <a href="https://t.me/pullubu"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"></a>
+  <a href="https://www.linkedin.com/in/liiilia/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.kaggle.com/lilyscharf"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white" alt="Kaggle"></a>
+  <a href="https://scholar.google.com/citations?user=1SYAk28AAAAJ"><img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white" alt="Google Scholar"></a>
+  <a href="https://orcid.org/0009-0002-8954-8867"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white" alt="ORCID"></a>
+</p>
+
+<p align="right">
   <b>ML-инженер</b><br>
   Document AI и RAG-системы для технических и промышленных областей.
 </p>
 
+
+---
 <p align="center">
   <a href="https://github.com/scharfff">English</a> · <b>Русский</b>
 </p>
-
-<p align="center">
-  <a href="https://t.me/pullubu">Telegram</a> ·
-  <a href="mailto:scharf.onnx@bk.ru">scharf.onnx@bk.ru</a> ·
-  <a href="https://www.linkedin.com/in/liiilia/">LinkedIn</a> ·
-  <a href="https://scholar.google.com/citations?user=1SYAk28AAAAJ">Google Scholar</a>
-</p>
-
----
 
 Проектирую системы анализа документов на базе LLM: RAG по нормативной документации, OCR-пайплайны, извлечение структурированных данных с валидацией, дообученные BERT-подобные модели для NER и классификации. Большая часть этой работы шла на закрытых корпоративных документах, со сравнением локальных моделей и облачных провайдеров.
 
 По первому образованию я инженер-строитель (BIM), поэтому технические документы знаю изнутри. Ещё преподаю Python, информатику и математику абитуриентам в СПбПУ и занимаюсь исследованиями в NLP.
 
-## Системы, которые я проектировала и вела сама
+<details>
+<summary><b>Проекты</b></summary>
+
+&nbsp;
 
 ### DocuLex: сервис анализа договоров (закрытый код)
 
@@ -61,13 +63,20 @@
 
 Магистерское исследование лингвистических маркеров типа личности в текстах: [MBTI-LSTM](https://github.com/scharfff/MBTI-LSTM), BiLSTM-классификатор на PyTorch. Также участвовала в исследовании для системы распознавания птиц на основе свёрточных сетей по снимкам камер наблюдения.
 
-## Опыт
+</details>
+
+<details>
+<summary><b>Опыт</b></summary>
+
+&nbsp;
 
 - **С 2025 по настоящее время.** Преподаватель (совместительство), СПбПУ, центр работы с абитуриентами. Собственный курс и веб-платформа для него.
 - **С 2024 по 2025.** ML-инженер, «Синтез», команда IT-инфраструктуры. RAG-система, DocuLex, дообученные BERT-подобные модели для NER и классификации протоколов испытаний, дообученная модель Hugging Face для суммаризации документации электролаборатории.
 - **С 2023 по 2024.** Аналитик-разработчик, «Синтез», команда IT-инфраструктуры. Сравнение локальных моделей с облачными провайдерами (OpenAI, Hugging Face, Сбер, Яндекс), A/B-тесты ML- и AI-решений с постанализом.
 - **С 2022 по 2024.** Инженер-исследователь (совместительство), СибГИУ, кафедра информационных технологий. Исследования LSTM- и BiLSTM-классификатора.
 - **С 2022 по 2023.** Стажёр-аналитик, «Синтез». ETL-процессы, дашборды, оцифровка технической документации по ГОСТ.
+
+</details>
 
 <details>
 <summary><b>Публикации</b></summary>

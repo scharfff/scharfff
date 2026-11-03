@@ -10,19 +10,23 @@
 </p>
 
 <p align="center">
-  <a href="https://t.me/pullubu">Telegram</a> ·
-  <a href="mailto:scharf.onnx@bk.ru">scharf.onnx@bk.ru</a> ·
-  <a href="https://www.linkedin.com/in/liiilia/">LinkedIn</a> ·
-  <a href="https://scholar.google.com/citations?user=1SYAk28AAAAJ">Google Scholar</a>
+  <a href="https://t.me/pullubu"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"></a>
+  <a href="https://www.linkedin.com/in/liiilia/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.kaggle.com/lilyscharf"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white" alt="Kaggle"></a>
+  <a href="https://scholar.google.com/citations?user=1SYAk28AAAAJ"><img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white" alt="Google Scholar"></a>
+  <a href="https://orcid.org/0009-0002-8954-8867"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white" alt="ORCID"></a>
 </p>
 
 ---
 
 I build LLM-based document analysis systems: RAG over regulatory documents, OCR pipelines, structured extraction with validation, fine-tuned BERT-like models for NER and classification. Most of this work was done on closed corporate documents, with local models compared against cloud providers.
 
-My first degree is in civil engineering (BIM), so technical documents are familiar to me from the inside. I also teach Python, computer science and mathematics to university applicants at SPbPU and do NLP research.
+My first degree is in civil engineering (BIM), so technical documents are familiar to me from the inside. I also teach Python, computer science and mathematics to university applicants at SPbSTU and do NLP research.
 
-## Systems I designed and owned
+<details>
+<summary><b>Projects</b></summary>
+
+&nbsp;
 
 ### DocuLex: contract analysis service (closed source)
 
@@ -50,7 +54,7 @@ My first degree is in civil engineering (BIM), so technical documents are famili
 ### [spbpu-inf-course](https://github.com/scharfff/spbpu-inf-course): web textbook for the 2027 Russian Unified State Exam (EGE) in computer science (content in Russian)
 
 - **Architecture.** An Astro web app built and deployed by GitHub Actions to GitHub Pages. Content lives in per-task folders with Python solutions. The previous year is kept on its own branch (2026), and the README documents the draft 2027 specification: 27 tasks and 29 primary points.
-- **Outcome.** The core of my educational platform and the material for my classes at SPbPU. [Open the web app](https://scharfff.github.io/spbpu-inf-course/).
+- **Outcome.** The core of my educational platform and the material for my classes at SPbSTU. [Open the web app](https://scharfff.github.io/spbpu-inf-course/).
 
 ### [mailrucloud](https://github.com/scharfff/mailrucloud): unofficial CLI for Mail.ru Cloud (PyPI)
 
@@ -61,13 +65,20 @@ My first degree is in civil engineering (BIM), so technical documents are famili
 
 Master's research on linguistic markers of personality type in texts: [MBTI-LSTM](https://github.com/scharfff/MBTI-LSTM), a BiLSTM classifier in PyTorch. I also contributed research to a CNN-based bird recognition system for surveillance camera snapshots.
 
-## Experience
+</details>
 
-- **2025 to present.** Lecturer (part-time), SPbPU, applicant outreach center. Own course and its web platform.
+<details>
+<summary><b>Experience</b></summary>
+
+&nbsp;
+
+- **2025 to present.** Lecturer (part-time), SPbSTU, applicant outreach center. Own course and its web platform.
 - **2024 to 2025.** ML Engineer, Sintez, IT Infrastructure team. RAG system, DocuLex, fine-tuned BERT-like models for NER and classification of test reports, a fine-tuned Hugging Face model that summarizes electrical laboratory documentation.
 - **2023 to 2024.** Analyst-Developer, Sintez, IT Infrastructure team. Benchmarks of local models against cloud providers (OpenAI, Hugging Face, Sber, Yandex), A/B tests of ML and AI solutions with post-analysis.
 - **2022 to 2024.** Research Engineer (part-time), SibSIU, Department of Information Technology. LSTM and BiLSTM classifier research.
 - **2022 to 2023.** Analyst intern, Sintez. ETL processes, dashboards, digitizing technical documentation per GOST.
+
+</details>
 
 <details>
 <summary><b>Publications</b></summary>
